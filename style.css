@@ -1,0 +1,125 @@
+pre {
+    display: none;
+    top: 0;
+    right: ;
+    left: ;
+
+}
+
+p {
+    margin-left: 38vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding-top: 1vw;
+    padding-bottom: 0vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-size: 17px;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    width: 40vw;
+    line-height: 1.8em;
+    background-color: white;
+}
+
+p:first-child {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+p:nth-of-type(6n) {
+    border-top-style: solid;
+    border-width: 3px;
+    border-top-color: #FFFB91;
+    width: 50vw;
+    padding-top: 1.5vw
+}
+
+body {
+    background-color: black;
+    margin-left: 5vw;
+}
+
+hr {
+    display: none;
+}
+
+br {
+    display: none;
+}
+
+.title3 {
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 40px;
+    color: #FFFB91;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: 7vw;
+    width: 30vw;
+    position: fixed;
+    margin-left: 0vw;
+    margin-top: 5vw;
+    padding-top: 10px;
+}
+
+h2 {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    height: 2vw;
+    width: 30vw;
+    text-align: right;
+    position: fixed;
+    margin-left: 1.5vw;
+    margin-top: 8.5vw;
+}
+
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+    p {
+        margin: ;
+        margin-top: ;
+        margin-right: ;
+        margin-bottom: ;
+        margin-left: ;
+    padding: ;
+        padding-top: ;
+        padding-right: ;
+        padding-bottom: ;
+        padding-left: ;
+    font-size: ;
+    color: ;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    width: ;
+    line-height: ;
+    }
+}
+
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    p {
+        margin: ;
+        margin-top: ;
+        margin-right: ;
+        margin-bottom: ;
+        margin-left: ;
+    padding: ;
+        padding-top: ;
+        padding-right: ;
+        padding-bottom: ;
+        padding-left: ;
+    font-size: ;
+    color: ;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    width: ;
+    line-height: ;
+    }
+}
