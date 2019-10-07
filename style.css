@@ -31,13 +31,14 @@ p:first-child {
 p:nth-of-type(6n):after {
     content: ' ';
     display: block;
-    border: 3px solid #FFFB91;
+    border: 2px solid #FFFB91;
     width: 45vw;
     margin-top: 10px;
     margin-left: 30px;
 }
 
 body {
+    margin-top: 0;
     background-color: black;
     margin-left: 5vw;
 }
@@ -54,7 +55,7 @@ br {
     background-color: black;
     border-style: solid;
     border-width: 5px;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFB91;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
@@ -68,7 +69,7 @@ br {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
@@ -83,43 +84,159 @@ h2 {
 /* ----------- SMART PHONES ----------- */
 @media only screen and (max-width: 800px) {
     p {
-        margin: ;
-        margin-top: ;
-        margin-right: ;
-        margin-bottom: ;
-        margin-left: ;
-    padding: ;
-        padding-top: ;
-        padding-right: ;
-        padding-bottom: ;
-        padding-left: ;
-    font-size: ;
-    color: ;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    width: ;
-    line-height: ;
+        display: block;
+        margin: auto;
+        margin-bottom: 0vw;
+        padding-top: 1vw;
+        padding-bottom: 0vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        font-size: 14px;
+        color: black;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        width: 70vw;
+        line-height: 1.8em;
+    }
+
+    p:first-child {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    
+    p:nth-of-type(6n):after {
+        content: ' ';
+        display: block;
+        border: 2px solid #FFFB91;
+        width: 70vw;
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    
+    body {
+        display: block;
+        background-color: white;
+        margin-left: 5vw;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .title3 {
+        display: block;
+        position: relative;
+        background-color: black;
+        border-style: solid;
+        border-width: 0px;
+        font-size: 27px;
+        color: #FFFB91;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: auto;
+        width: 70vw;
+        padding-top: 8vw;
+        padding-bottom: 4vw;
+        padding-left: 10px;
+    }
+
+    h2 {
+        display: block;
+        position: relative;
+        font-size: 20px;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        height: 2vw;
+        width: 70vw;
+        text-align: center;
+        margin-top: -8vw;
+        margin-left: 10vw;
     }
 }
 
 /* ----------- TABLETS ----------- */
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
     p {
-        margin: ;
-        margin-top: ;
-        margin-right: ;
-        margin-bottom: ;
-        margin-left: ;
-    padding: ;
-        padding-top: ;
-        padding-right: ;
-        padding-bottom: ;
-        padding-left: ;
-    font-size: ;
-    color: ;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    width: ;
-    line-height: ;
+        display: block;
+        margin: auto;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        padding-top: 1vw;
+        padding-bottom: 0vw;
+        padding-right: 6vw;
+        padding-left: 6vw;
+        font-size: 15px;
+        color: black;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        width: 55vw;
+        line-height: 1.8em;
+        background-color: white;
+    }
+    
+    p:first-child {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    
+    p:nth-of-type(6n):after {
+        content: ' ';
+        display: block;
+        border: 2px solid #FFFB91;
+        width: 65vw;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    body {
+        background-color: black;
+        margin-left: 5vw;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    br {
+        display: none;
+    }
+    
+    .title3 {
+        display: block;
+        position: relative;
+        background-color: black;
+        border-style: solid;
+        border-width: 5px;
+        font-size: 35px;
+        border-color: white;
+        color: #FFFB91;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding-top: 20vw;
+        padding-bottom: 2vw;
+        width: 53.7vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        height: 2vw;
+        width: 67vw;
+        text-align: center;
+        position: relative;
+        margin: auto;
     }
 }
